@@ -4,13 +4,25 @@
 	<meta charset="UTF-8">
 	<title>Demo</title>
 	<script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+	<script src="js/shy-box.js"></script>
 </head>
 <body>
 	<a-scene>
 		<a-box
 			color="red"
-			position="-1 0.5 -5">
+			position="-1 0.5 -5"
+			shybox>
 		</a-box>
+
+
+
+		<!--USER STUFF-->
+		<a-camera>
+			<a-cursor
+				color="#fff">
+			</a-cursor>
+		</a-camera>aaaaaaaaaw
+
 
 		<!--ENVIRONMENT STUFF-->
 		<a-entity>
