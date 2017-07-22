@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Demo</title>
+	<script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+</head>
+<body>
+	<a-scene>
+		<a-box
+			color="red"
+			position="-1 0.5 -5">
+		</a-box>
+
+		<!--ENVIRONMENT STUFF-->
+		<a-entity>
+			<a-sky
+				color="#000">
+			</a-sky>
+			<a-light
+				position="0 7.5 0"
+				rotation="-90 0 0"
+				type="spot"
+				distance="15">
+			</a-light>
+			<a-plane
+				width="100"
+				height="100"
+				rotation="-90 0 0"
+				color="#444">
+			</a-plane>
+		</a-entity>
+	</a-scene>
+</body>
+</html>
